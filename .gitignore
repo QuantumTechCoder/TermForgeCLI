@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build and Binary Outputs
+dist/
+build/
+bin/
+*.exe
+*.sea.blob
+sea-config.json
+bundle.js
+bundle.cjs
+bundle/
+temp/
+tmp/
+
+# Archives
+termforge.zip

@@ -6,7 +6,8 @@
   "type": "commonjs",
   "bin": { "termforge": "index.js" },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build:exe": "npx caxa --input \".\" --output \"dist/termforge.exe\" --exclude \".git\" \"dist\" \"termforge.zip\" -- \"{{caxa}}/node_modules/.bin/node\" \"{{caxa}}/index.js\""
   },
   "optionalDependencies": {
     "node-pty": "^1.0.0"
