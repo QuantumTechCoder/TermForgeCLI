@@ -1,0 +1,16 @@
+{
+  "name": "termforge",
+  "version": "1.0.0",
+  "description": "Terminal harness that restyles your real Windows shell to look like another OS terminal.",
+  "main": "index.js",
+  "type": "commonjs",
+  "bin": { "termforge": "index.js" },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "optionalDependencies": {
+    "node-pty": "^1.0.0"
+  },
+  "engines": { "node": ">=16" },
+  "license": "MIT"
+}
